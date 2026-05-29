@@ -52,4 +52,97 @@ en caso de quue necesitemos alinear el parrafo a **izquierda**, **derecha**, **c
 
 <p align="right"> parrafo alineado a la derecha parrafo alineado a la derecha parrafo alineado a la derecha parrafo alineado a la derecha parrafo alineado a la derecha parrafo alineado a la derecha parrafo alineado a la derecha parrafo alineado a la derecha parrafo alineado a la derecha parrafo alineado a la derecha parrafo alineado a la derecha parrafo alineado a la derecha 
 
-<p align="justify"> parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado 
+<p align="justify"> parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado parrafo justificado
+
+### 4. Enfatizado de texto
+
+texto en negritas : para resaltar texto importante que no se aun texto porque esto inicialmente debems encerrar el texto desdeando entre doble asteriscos simples (**)
+
+ejemplo: este texto esta en **Negritas**
+
+texto en cursiva (Italico): para hacer referencia a texto utilizando el formatp inclinado o italico basado con encerarr el texto deseadpo entre dos asteriscos simple (*)
+
+ejemplo: este *texto* esta *inclinado*
+
+texto en cursiva y negritas: para logar esta estilizacion en el documentacion basata con juntar ambas configuracion, es decir encerramos el texto en triple asteriscos (***)
+
+ejemplo ***ste texto esta en negritas e italico***
+
+texto techado: en algunas ocaciones es necesario dar formato al texto con un efecto de como es incorrecto generalmente esta idea se transmite por que el texto  techado es decir con unalinea que lo marca por la mitad
+
+ejemplo: se dice haya no (~~ahiga~~)
+
+texto subrayado: en este tipo de formato el texto queda sobre una linea inferior para denotar su relevancia este formato no tiene una version rapida en el estandar de MARKDOWN pero dada su similiaridad a HTML podemos utilizar las etiquetas ''' <u> ''' y '''</u>.
+
+ejemplo: el <u>texto</u> debe estar <u>subrayado</u>
+
+tetxo en super Indice: en algunas ocaciones se reuqiere dar formato a formulas estadisticas que requiere potencias entre otras aplicaciones podemos utilizar el tag de HTML ``` <supe> 
+tetxo en super Indice: en algunas ocaciones se reuqiere dar formato a formulas estadisticas que requiere potencias entre otras aplicaciones podemos utilizar el tag de HTML ``` <supe> ``` y ``` </sup> ``` para determinar el formato 
+
+ejemplo : para elevar x al cuadrado tendriamos lo siguente x<sup>2</sup>
+
+texto en subindice: en el caso de qimica se utilizan subindices para representar formulas para ellos podemos utilizar el formato de texto con la etiqueta HTML
+
+Ejempo: la formula del agua es H<sup>2</sup>O.
+
+### 5 listas 
+
+cuando realizamos documentacion utilizamos el estandar de MACKDOWN es comun que tengamos que en listar elementos requerimos de hardware requerimos de software o enumerar pasos de como el software debe ser instalado paso a paso or eso debemos saber como creamos listas de cuales hay de 3 tipos: **ordenamos (numeros)** , **desordenados (viñetas)**, y **mixtas (viñetas y numeros)**
+
+1. listas ordenadas
+
+esta dberemos estar enumerados con un numero seguido por un punto y un espacio en clanco para comenzar con el listado
+
+1. Pc
+2. Wifi
+3. Modem
+4. Smartphone
+6. Smart Tv
+5. tablet 
+
+2. estas listan no llevan un numero, su no un aviñeta(simbolo), y suele listar elemtos que no requerimos un orden especifico
+
+- pan
+- leche
+- huevo
+- azucar
+
+3. lista mixta
+ son aquellas que mezcla ambos elementos
+ - 3° A DSM
+ 1. Juan
+ 2. pedro
+ 3. alejandro
+ - 3° DSM
+ 1. romina
+ 2. daniel
+ -3° C DSM
+ 1. yahir
+ 2. liseth
+ 3. jeovany
+ 4. erick
+
+ ### 6. bloques de codigo (CODE BLOCKS) o citas (BLOCK QUOTES)
+
+Estos codigos de texto se utilizan para llamar la atencion del lector en pasos que son importantes realizar alguna reseña o segmentar lineas de codigo que deberan integrar en una terminal de comandos o lineas de ejercicio
+
+-cuadro de citas (block quotes)
+son cajas estilizadas en colores grises por defecto con un argen claro
+
+ejemplo:
+
+para enlistar las carpeta sy archivos desde una terminal de comandos en el sistema operativo de window debemos usar el comando:
+
+> C:dir
+
+despues oprimimos la tecla "enter"
+
+tambien podemos usar texto miltilinea
+
+ejemplo:
+
+> - descargar el archivo instalado desde la pagina oficial www.mysql.com
+> - instalar el servidor de base de datos
+> - definir el puerto y contraseña para el ususario **root**
+> - inicializar el servidor de base de datos
+> - conectarnos a la base de datos para verificar que se instalo correctamente
