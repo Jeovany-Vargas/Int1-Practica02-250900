@@ -193,3 +193,51 @@ ejemplo:
 - liga internas
 [acerca del autor](./aboutme.md "conoceme mas")
 
+
+### 9.Imagenes
+
+el estandar de marckdown nos permite ins¿crustar imagenes dentro de nuestra docuemntacion lo que nos permiteponer logotipos captura de pantalla o cualquier archivo grafico importante
+
+la estructura varua un poco de los refernecia de hipervinculos 
+
+
+```
+
+[texto que el usuario leera](url a donde se encuentra la imagen)
+```
+
+ejemplo:
+
+![dojocat](./imagenes/6c7eca96000e69e0a8783d36ba037fd5.jpg)
+
+es importante comprender eque la solucion de la imagen sera la original del archivo
+
+**Tip Pro**
+si el tamaño de la imagen no es ajusta a lo deseeas de tu documento lo mas recomentable es ajustar el tamaño del archivo original con algun software procesador de imagenes como: paint, ilustrador ink o photoshop pero si requiere modificarlo desde el codigo el estandar no tiene perimetros definidos por lo que necesitamos echar lineas de codigo HTML
+
+cambiamos la estructura de maquetado por la etiqueta <img>
+
+
+<img src="./imagenes/images.jpg" width="100" heigth="50">
+
+### 10 nota de pie
+
+### [Footnotes] (https://github.com/markdown-it/markdown-it-footnote)
+
+si nuestra docuemntacion requiere ubicar notas de importancoa relevante posterior podemos usar notas de pie de manera dinamica
+
+nota al 1 [^first].
+nota al pie 1[^second].
+
+refernecias al pide dentro de un parrafo  ^[nota interna] extensa dentro de nuestra documentacion 
+
+segunda refencia a la nota 2 [^second].
+
+[^first]: nota al pie **se puede formatear**
+
+y tener multiples lineas de parrafo 
+[^second]; texto de la segunda nota al pide
+
+### 11. abreviaturas
+
+### 12. contenedores personalizados
