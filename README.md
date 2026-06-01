@@ -146,3 +146,50 @@ ejemplo:
 > - definir el puerto y contraseña para el ususario **root**
 > - inicializar el servidor de base de datos
 > - conectarnos a la base de datos para verificar que se instalo correctamente
+
+bloques de codigo
+
+es comun que en la documentacion del proyectoo de software demos al ususario un par de instrucciones de como instalar configurar desplegar y testeae (pruebas) nuestro producto desarrolladopor tal motivo el estandar  marckdown nos permite enfatizar estas instrucciones simulano estar en la terminal de sistema operativo para delimitar este codigo basta encerrarlo un triple caracter de bacltic (acento o tilde inverso``` ' ```)
+
+
+ejemplo:
+
+para clonar el documento ingresa la siguente instruccion
+
+```
+
+C:\Users\PC-06\Desktop>git clone https://github.com/Jeovany-Vargas/Int1-Practica02-250900
+Cloning into 'Int1-Practica02-250900'
+```
+a diferencia de los bloques de codigo de citas las topologias y significado asociado
+
+### 7. tablas
+
+en caso de que nesecitemos estructurar datos o informacion relevante para la documentacion podremos utilizar el formato de tablas para lo que tenemos considerar la estructura base de una tabla
+
+- usa | para delimitar las columnas
+-usa --- para separar las filas del encabezado
+
+ejempo:
+
+|titulo1|titulo2|titulo3|titulo4|
+|---|---|---|---|
+|Fila 1, celda 1|Fila 1|celda 2|fila 1|celda 3|fila 1|celda 4|
+|Fila 2, celda 1|Fila 2|celda 2|fila 2|celda 3|fila 2|celda 4|
+|Fila 3, celda 1|Fila 3|celda 2|fila 3|celda 3|fila 3|celda 4|
+
+### 8. Hipervinculos (links)
+
+parapoder hacer referencia a documentos internos o externos dentro del repositorio debemos respetar la siguiente estructura
+
+```
+[texto que el usuario  leera](url o donde te dirigira) "texto que aparecera cuando pongas el cursor dobre la liga"
+```
+
+ejemplo:
+- Ligar externas
+[Google](https://google.com)
+
+- liga internas
+[acerca del autor](./aboutme.md "conoceme mas")
+
