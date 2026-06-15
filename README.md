@@ -238,6 +238,16 @@ segunda refencia a la nota 2 [^second].
 y tener multiples lineas de parrafo 
 [^second]; texto de la segunda nota al pide
 
-### 11. abreviaturas
+### [abreviaturas](https://github.com/markdown-it/markdown-it-abbr)
 
-### 12. contenedores personalizados
+Este es un ejemplo de abreviatura HTML.
+
+Convierte "HTML", pero conserva intactas las entradas parciales como "xxxHTMLyyy", etc.
+
+*[HTML]: Lenguaje de Marcado de Hipertexto
+
+### [Custom containers](https://github.com/markdown-it/markdown-it-container)
+
+::: warning
+*here be dragons*
+:::
